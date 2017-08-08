@@ -1,3 +1,50 @@
+VDVESTA是一个小型的shell脚本，为您的CentOS Server Release 7 x86_64自动定制并安装VESTACP
+系统要求：CentOS Server 7 x86_64
+一键脚本：
+----------
+curl -L https://github.com/duy13/VDVESTA/raw/master/vdvesta.sh -o vdvesta.sh ; bash vdvesta.sh
+----------
+
+脚本界面：
+
+欢迎来到VDVESTA：
+一个shell脚本自动定制并安装您的CentOS Server Release 7 x86_64的VESTACP。
+感谢您的使用！
+
+你愿意+安装vDDoS代理保护[Y | n]：
+vDDoS Proxy Protection install => y
+您要安装哪个Web Server版本[apache | nginx]：
+Web服务器版本=> apache
+要安装哪个PHP Server版本[5.4 | 5.5 | 5.6 | 7.0 | 7.1]：
+PHP Server版本=> 7.1
+你想要自动配置PHP [Y | n]：
+自动配置PHP => y
+您要安装哪个MariaDB Server版本[5.5 | 10.0 | 10.1]：
+MariaDB Server版本=> 10.1
+你想要+安装文件管理器[Y | n]：
+文件管理器install => y
+你想要+安装Zend优化加操作码缓存[Y | n]：
+Zend操作码缓存install => y
+你愿意+安装Memcached [Y | n]：
+Memcached install => y
+你想要+安装限制主机（限制CPU，RAM，IO您的主机帐户）[Y | n]：
+限制主机install => y
+你想配置内核限制DDOS [Y | n]：
+内核限制DDOS => y
+您想将VestaCP 8083端口更改为2083 [Y | n]：
+将端口VestaCP 8083更改为2083 => y
+你想要+安装Spamassassin＆Clamav [y | N]：
+安装Spamassassin＆Clamav => n
+你愿意+安装Fail2ban [y | N]：
+安装Fail2ban => n
+输入你的主机名[vdvesta.local]：
+Hostname => vdvesta.local
+输入您的邮箱[admin@vdvesta.local]：
+Email => admin@vdvesta.local
+
+
+#下面是原作者的介绍
+
 VDVESTA
 ===================
 
