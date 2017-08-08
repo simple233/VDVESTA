@@ -1,12 +1,13 @@
 VDVESTA是一个小型的shell脚本，为您的CentOS Server Release 7 x86_64自动定制并安装VESTACP
+
 系统要求：CentOS Server 7 x86_64
+
 一键脚本：
 ----------
 curl -L https://github.com/duy13/VDVESTA/raw/master/vdvesta.sh -o vdvesta.sh ; bash vdvesta.sh
 ----------
 
 脚本界面：
-
 欢迎来到VDVESTA：
 一个shell脚本自动定制并安装您的CentOS Server Release 7 x86_64的VESTACP。
 感谢您的使用！
